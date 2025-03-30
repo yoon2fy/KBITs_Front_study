@@ -1,0 +1,72 @@
+<!-- 
+ 문제 명: 다음과 같이 회원 가입 화면을 구성하세요. -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>-1-join</title>
+ </head>
+ <body>
+    <form>
+        <fieldset>
+            <legend>회원가입</legend>
+            <table>
+                <tr>
+                    <th>사용자 ID</th>
+                    <td><input type="text" name="username"></td>
+                </tr>
+                <tr>
+                    <th>비밀번호</th>
+                    <td><input type="password" name="password"></td>
+                </tr>
+                <tr>
+                    <th>비밀번호 확인</th>
+                    <td><input type="password" name="password2"></td>
+                </tr>
+                <tr>
+                    <th>이름</th>
+                    <td><input type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <th>성별</th>
+                    <td>
+                        <input type="radio" name="gender" value="male"/>남
+                        <input type="radio" name="gender" value="female"/>여
+                    </td>
+                </tr>
+                <tr>
+                    <th>취미</th>
+                    <td>
+                        <input type="checkbox" name="hobby" value="soccer"/>축구
+                        <input type="checkbox" name="hobby" value="baseball"/>야구
+                        <input type="checkbox" name="hobby" value="volleyball"/>배구
+                        <input type="checkbox" name="hobby" value="basketball"/>농구
+                    </td>
+                </tr>
+                <tr>
+                    <th>email</th>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <th>역할</th>
+                    <td>
+                        <select name="role">
+                            <option value="ADMIN">ADMIN</option>
+                            <option value="MANAGER">관리자</option>
+                            <option value="MEMBER">일반회원</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="확인">
+                        <input type="reset" value="다시쓰기">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+ </body>
+ </html>
