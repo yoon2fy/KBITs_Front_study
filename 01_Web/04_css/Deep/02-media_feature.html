@@ -1,0 +1,28 @@
+<!-- 다음 내용을 화면 폭 크기에 따라 아래 그림처럼 나오도록  미디어 쿼리로 css로 작성하세요 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-media_feature</title>
+    <style>
+        /* 스마트폰*/
+        @media screen and (max-width: 767px) {
+            body { background-color: red; }
+        }
+        /* 태블릿PC */
+        @media screen and (min-width: 768px) and (max-width: 959px) {
+            body { background-color: green; }
+        }
+        /* 데스크톱*/
+        @media screen and (min-width: 960px) {
+            body { background-color: blue; }
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem ipsum dolor sit amet</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. …</p>
+</body>
+</html>

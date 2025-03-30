@@ -1,0 +1,51 @@
+<!-- 아래 내용을 화면 폭에 따라 메뉴의 위치가
+ 바뀌도록 미디어 쿼리를 사용하여 css를 작성하세요. -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03-pattern1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            width: 960px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        #menu {
+            width: 260px;
+            float: left;
+        }
+        #section {
+            width: 700px;
+            float: right; /* left로 입력해도 상관없음 */
+        }
+        li { list-style: none; }
+        @media screen and (max-width: 767px) {
+            /* 스마트폰 사이즈에서는전부해제합니다. */
+            body { width: auto }
+            #menu { width: auto; float: none; }
+            #section { width: auto; float: none; }
+        }
+ </style>
+ </head>
+
+ <body>
+    <div id="menu">
+        <ul>
+            <li>메뉴A</li>
+            <li>메뉴B</li>
+            <li>메뉴C</li>
+        </ul>
+    </div>
+    <div id="section">
+        <h1>Lorem ipsum</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut tempore similique sunt quis quas reprehenderit dolore voluptas quae eius autem, ad et, omnis quod quo perferendis accusamus neque libero recusandae!</p>
+    </div>
+ </body>
+ </html>
