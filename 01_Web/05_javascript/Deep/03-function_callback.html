@@ -1,0 +1,28 @@
+<!-- 
+ 다음 함수를 콜백 함수로 전달하고,
+ 반복 호출할 회수를 매개변수로 전달하여,
+ 그 회수만큼 콜백함수를 호출하는 JS로 작성하세요. -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03-function_callback</title>
+ </head>
+ <body>
+    <script>
+        function callTenTimes(callback) {
+            for (let i = 0; i < 10; i++) {
+                callback(); 
+            }
+        }
+    
+        let fun = function () {
+            alert('함수 호출');
+        };
+        callTenTimes(fun);
+    </script>
+ </body>
+ </html>

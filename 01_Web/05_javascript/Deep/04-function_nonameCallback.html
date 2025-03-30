@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04-fuction_nonameCallback</title>
+</head>
+<body>
+    <script>
+        function callTenTimes(callback){
+            for (let i=0; i<10; i++){
+                callback();
+            }
+        }
+        callTenTimes(function(){
+            alert('함수호출');
+        });
+    </script>
+</body>
+</html>

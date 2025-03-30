@@ -1,0 +1,42 @@
+<!-- 
+Date 객체를 생성하여 현재 시간을 구하고, 해당 시간 구간에 해당하는
+문자열을 alert창으로 출력하는 JS를 작성하시오.
+
+○ 5시미만: 잠을자렴…
+○ 5시이상7시미만: 준비
+○ 7시이상9시미만: 출근
+○ 9시이상12시미만: 빈둥빈둥
+○ 12시이상14시미만: 식사
+○ 14시이상: 여러가지업무를수행합니다.
+ -->
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-condition_ifelseif</title>
+ </head>
+ <body>
+    <script>
+        // Date 객체를 선언합니다: 현재 시간 측정
+        let date = new Date();
+        let hours = date.getHours();
+        // 조건문
+        if (hours < 5) {
+            alert('잠을 자렴....');
+        }  else if (hours < 7) {
+            alert('준비');
+        } else if (hours < 9) {
+            alert('출근');
+        } else if (hours < 12) {
+            alert('빈둥빈둥');
+        } else if (hours < 14) {
+            alert('식사');
+        } else {
+            alert('여러 가지 업무를 수행합니다.');
+        }
+    </script>
+ </body>
+ </html>

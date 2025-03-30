@@ -1,0 +1,23 @@
+<!-- 
+ 데이터 10, 20, 30, 40, 50을 배열로 정의하고,
+ 배열에 있는 숫자의 합을 구해서 alert로 출력하세요. -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-loop_array</title>
+ </head>
+ <body>
+    <script>
+        // 변수를선언합니다.
+        let array = [10, 20, 30, 40, 50];
+        let sum = 0;
+        for(let i = 0; i < array.length; i++) {
+            sum += i;
+        }
+        alert(sum); 
+    </script>
+ </body>
+ </html>
