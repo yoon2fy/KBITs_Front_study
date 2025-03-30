@@ -1,0 +1,27 @@
+<!-- 다음 폼에서 전송 버튼을 눌렀을 때 선택한 체크박스의 값들을 콜솔에 출력하세요. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02-get_checkbox</title>
+    <script>
+        window.onload = function (){
+            document.getElementById('btn').addEventListener('click', function(){
+                let result = [];
+                let foods  = document.getElementsByName('food');
+                for(let i=0, len=foods.length; i<len; i++){
+                    let food=foods.item(i);
+                    if(food.checked){
+                        result.push(food.value);
+                    }
+                }
+            })
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!-- 
+ 다음 폼에서 전송 버튼을 눌렀을 때 사용자가 입력한 이름을 콘솔에 출력하세요. -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-get_input</title>
+    <script>
+        window.onload=function(){
+            document.getElementById('btn').addEventListener('click', function(){
+                let name = document.getElementById('name');
+                console.log(name.value);
+            }, false);
+        }
+    </script>
+ </head>
+ <body>
+    
+ </body>
+ </html>
