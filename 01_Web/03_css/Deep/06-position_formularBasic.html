@@ -1,0 +1,45 @@
+<!-- 
+ 앞의 예제를 수정하여, 다음 그림처럼 div 태그를 배치하세요. -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06-position_formularBasic</title>
+    <style>
+        .box {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        }
+        .box:nth-child(1) {
+        background-color: red;
+        left: 10px;
+        top: 10px;
+        z-index: 100;
+        }
+        .box:nth-child(2) {
+        background-color: green;
+        left: 50px;
+        top: 50px;
+        z-index: 10;
+        }
+        .box:nth-child(3) {
+        background-color: blue;
+        left: 90px;
+        top: 90px;
+        z-index: 1;
+        }
+    </style>
+ </head>
+ <body>
+    <h1>Lorem ipsum dolor amet</h1>
+    <div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <h1>Lorem ipsum dolor amet</h1>
+ </body>
+ </html>
