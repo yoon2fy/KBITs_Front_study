@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM Basic</title>
+    <script>
+      // 이벤트를 연결합니다.
+      window.onload = function () {
+        // 속성을 지정합니다.
+        document.body.setAttribute('data-custom', 'value');
+
+        // 속성을 추출합니다.
+        let dataCustom = document.body.getAttribute('data-custom');
+        alert(dataCustom);
+      };
+    </script>
+  </head>
+  <body></body>
+</html>
