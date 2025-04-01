@@ -1,1 +1,39 @@
 06_vue(기본)
+
+  01-test-vue-app-global-components
+   o src/Components/CheckboxItem.vue 정의
+   o Checkboxitem.vue 를 전역 컴포넌트로 설정
+   o App.vue에서 Checkboxitem 컴포넌트 4개 배치하여 사용
+   ---
+  02-test-vue-app-local-components
+   o 전역 CheckboxItem 컴포넌트 설정 취소
+   o CheckboxItem.vue를 App.vue의 지역 컴포넌트로 설정
+   o App.vue에서 CheckboxItem 컴포넌트 4개 배치하여 사용
+  ---
+  03-interesting-kpop
+   o App.vue에서 다음과 같은 데이터 옵션을 추가하고, 이 데이터 수만큼 CheckboxItem을 생성한 후 데이터를 바인딩하세요.
+   o CheckboxItem에 name, checked 속성을 추가하세요.
+   o 크롬 Vue 개발 확장팩에서 데이터를 확인하세요.
+  ---
+  04-interesting-kpop2
+   o 배열 요소 하나를 idol이라는 속성으로 받아서 처리하도록 CheckboxItem2를 정의하고 App2.vue에서 운영해보세요.
+  ---
+  05-interesting-kpop3
+   o id는 Number 또는 String 타입만 가능
+   o name은 String 타입
+   o checked는 Boolean 타입이며, 기본값으로 false를 가지며, 옵션임 (생략가능)
+  ---
+  06-inputName-component
+   o 컴포넌트의 모양은 다음과 같이 구성한다.
+   o 이벤트 발신 버튼을 클릭하면 nameChangedHandler() 함수를 호출한다.
+   o 이벤트 명은 'nameChanged'
+   o 이벤트 인자는 name
+   o App4.vue에서 이벤트로 전달된 데이터를 출력한다.
+  ---
+  07-inputName-component2
+   o namedChanged 이벤트에 유효성 검사를 추가함
+   o name 값이 있어야함
+   o name 값의 타입은 문자열이여야 함
+   o name 값의 길이가 3이상 이여야 함
+   o 유효성 검사에 실패한 경우 콘솔에 경고 메시지가 출력됨을 확인함
+  --- 
