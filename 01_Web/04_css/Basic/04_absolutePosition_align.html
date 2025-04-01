@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Absolute Position</title>
+    <style>
+      /* 초기화 */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background: red;
+      }
+
+      #container {
+        /* 색상 및 크기 적용 */
+        width: 500px;
+        height: 250px;
+        background: orange;
+
+        /* 위치 설정 */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-left: -250px;
+        margin-top: -125px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <h1>요소의 중앙 배치</h1>
+    </div>
+  </body>
+</html>

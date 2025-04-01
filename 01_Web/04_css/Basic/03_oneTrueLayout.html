@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Layout</title>
+    <style>
+      body {
+        width: 500px;
+        margin: 10px auto;
+      }
+      #middle {
+        overflow: hidden;
+        /* position: relative;
+        height: 105zpx; */
+      }
+      #left {
+        float: left;
+        /* position: absolute;
+        left: 0;
+        top: 0; */
+        width: 150px;
+        background: red;
+      }
+      #right {
+        float: right;
+        /* position: absolute;
+        right: 0;
+        top: 0; */
+        width: 350px;
+        background: blue;
+      }
+      #top {
+        background: green;
+      }
+      #bottom {
+        background: purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="top">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac urna
+      vitae dolor pulvinar facilisis eget ac risus. Phasellus gravida non augue
+      vitae rutrum. Ut vitae ligula lorem. Suspendisse gravida egestas faucibus.
+    </div>
+    <div id="middle">
+      <div id="left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+      <div id="right">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac urna
+        vitae dolor pulvinar facilisis eget ac risus. Phasellus gravida non
+        augue vitae rutrum. Ut vitae ligula lorem. Suspendisse gravida egestas
+        faucibus.
+      </div>
+    </div>
+    <div id="bottom">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac urna
+      vitae dolor pulvinar facilisis eget ac risus. Phasellus gravida non augue
+      vitae rutrum. Ut vitae ligula lorem. Suspendisse gravida egestas faucibus.
+    </div>
+  </body>
+</html>
