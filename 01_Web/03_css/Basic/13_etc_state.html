@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS3 Selector Basic</title>
+    <style>
+      /* input 태그가 사용 가능할 때
+              background-color 속성에 white 키워드를 적용합니다. */
+      input:enabled {
+        background-color: white;
+      }
+      /* input 태그가 사용 불가능할 때
+              background-color 속성에 gray 키워드를 적용합니다. */
+      input:disabled {
+        background-color: gray;
+      }
+      /* input 태그에 포커스를 맞출 때
+              background-color 속성에 orange 키워드를 적용합니다. */
+      input:focus {
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>사용 가능</h2>
+    <input />
+    <h2>사용 불가능</h2>
+    <input disabled="disabled" />
+  </body>
+</html>
