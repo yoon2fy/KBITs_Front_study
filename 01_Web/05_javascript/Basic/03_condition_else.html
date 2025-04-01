@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript Basic</title>
+    <script>
+      // Date 객체를 선언합니다: 현재 시간 측정
+      let date = new Date();
+      //let date2 = new Date();
+      //alert(date == date2);
+
+      let hours = date.getHours();
+
+      // 조건문
+      if (hours < 12) {
+        // 표현식 "hours < 12"가 참일 때 실행합니다.
+        alert('오전입니다.');
+      } else {
+        // 표현식 "12 <= hours"가 참일 때 실행합니다.
+        alert(hours + '시 이고,' + '오후입니다.');
+      }
+    </script>
+  </head>
+  <body></body>
+</html>
