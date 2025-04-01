@@ -25,7 +25,7 @@ This repository is a check list which is the first term practices in KB IT's you
 | 03 Vue 인스턴스, 이벤트 | 03_vue | ☑ | ☑ | 
 | 04 부트스트랩 | 04_vue | ☐ | ☐ | 
 | 05 스타일 처리 | 05_vue | ☑ | ☑ | 
-| 06 단일 파일 컴포넌트 | 06_vue | ☐ | ☐ | 
+| 06 단일 파일 컴포넌트 | 06_vue | ☑ | ☑ | 
 | 07 컴포넌트 심화 | 07_vue | ☐ | ☐ |  
 | 08 Composition API | 08_vue | ☐ | ☐ |  
 | 09 라우팅 | 09_vue | ☐ | ☐ |  
