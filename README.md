@@ -27,7 +27,7 @@ This repository is a check list which is the first term practices in KB IT's you
 | 05 스타일 처리 | 05_vue | ☑ | ☑ | 
 | 06 단일 파일 컴포넌트 | 06_vue | ☑ | ☑ | 
 | 07 컴포넌트 심화 | 07_vue | ☑ | ☐ |  
-| 08 Composition API | 08_vue | ☐ | ☐ |  
+| 08 Composition API | 08_vue | ☑ | ☐ |  
 | 09 라우팅 | 09_vue | ☐ | ☐ |  
 | 10 Axios | 10_vue | ☐ | ☐ |  
 | 11 라우트와 Axios 연동 | 11_vue | ☐ | ☐ |  
