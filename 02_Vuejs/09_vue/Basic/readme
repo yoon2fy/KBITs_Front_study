@@ -1,1 +1,17 @@
 09_vue(기본)
+
+[디렉토리의 주요 구성]
+router-test
+📦 src
+ ┣ 📂 components
+ ┃ ┗ 📜 Header.vue
+ ┣ 📂 pages
+ ┃ ┣ 📜 About.vue
+ ┃ ┣ 📜 Home.vue
+ ┃ ┣ 📜 MemberInfo.vue
+ ┃ ┣ 📜 Members.vue
+ ┃ ┗ 📜 Videos.vue
+ ┣ 📂 router
+ ┃ ┗ 📜 index.js
+ ┣ 📜App.vue
+ ┗ 📜main.js
