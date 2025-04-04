@@ -1,0 +1,23 @@
+11_vue(기본)
+
+[디렉토리의 주요 구성]
+todolist-app-router
+📦 src
+ ┣ 📂 assets
+ ┣ 📂 components
+ ┃ ┣ 📜 Header.vue
+ ┃ ┗ 📜 TodoItem.vue
+ ┣ 📂 pages
+ ┃ ┣ 📜 About.vue
+ ┃ ┣ 📜 AddTodo.vue
+ ┃ ┣ 📜 EditTodo.vue
+ ┃ ┣ 📜 Home.vue
+ ┃ ┣ 📜 NotFound.vue
+ ┃ ┗ 📜 TodoList.vue
+ ┣ 📂 router
+ ┃ ┗ 📜 index.js
+ ┣ 📜 App.vue
+ ┣ 📜 vite.comfig
+ ┣ 📜 db.json
+ ┗ 📜 main.js
+ 
