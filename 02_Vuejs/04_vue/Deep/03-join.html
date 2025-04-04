@@ -1,0 +1,76 @@
+<!-- 
+문제 3: 다음 화면을 만드세요.
+○ Bootstrap, Fontawesome 활용
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="mx-auto" style="width: 500px">
+            <h1><i class="fa-solid fa-user-plus"></i> 회원가입</h1>
+            <form>
+                <div class="mb-3 mt-5">
+                    <label for="userid"><i class="fa-solid fa-user"></i> 사용자ID:</label>
+                    <input type="text" class="form-control" id="userid" placeholder="사용자ID를입력하세요." name="userid" />
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="password"><i class="fa-solid fa-lock"></i> 비밀번호:</label>
+                    <input
+                        type="password"
+                        class="form-control"
+                        id="password"
+                        placeholder="비밀번호를입력하세요."
+                        name="password"
+                    />
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="password2"><i class="fa-solid fa-lock"></i> 비밀번호확인:</label>
+                    <input
+                        type="password"
+                        class="form-control"
+                        id="password2"
+                        placeholder="비밀번호확인을입력하세요."
+                        name="password2"
+                    />
+                </div>
+                <div class="mb-3 mt-3">
+                    <label for="email"><i class="fa-regular fa-envelope"></i> 이메일</label>
+                    <input type="email" class="form-control" id="email" placeholder="email을입력하세요." name="email" />
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="avatar"><i class="fa-solid fa-user-astronaut"></i> 아바타이미지</label>
+                        <input type="file" class="form-control" id="avatar" name="avatar" />
+                    </div><div class="mb-3 mt-3">
+                        <label for="password2"><i class="fa-solid fa-lock"></i> 비밀번호확인:</label>
+                        <input
+                            type="password"
+                            class="form-control"
+                            id="password2"
+                            placeholder="비밀번호확인을입력하세요."
+                            name="password2"
+                        />
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="email"><i class="fa-regular fa-envelope"></i> 이메일</label>
+                        <input type="email" class="form-control" id="email" placeholder="email을입력하세요." name="email" />
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <label for="avatar"><i class="fa-solid fa-user-astronaut"></i> 아바타이미지</label>
+                        <input type="file" class="form-control" id="avatar" name="avatar" />
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary"><i class="fa-solid fa-user-plus"></i> 회원가입</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+</body>
+</html>
+
