@@ -19,7 +19,7 @@ This repository is a check list which is the first term practices in KB IT's you
 | 항목 | 디렉토리 명 | 기본 | 심화 | 
 |------|:----:|:----:|:----:|
 | 01 Node.js 기초 | 01_node | ☑ | ☐ |  
-| 02 파일 관리하기 | 02_node | ☐ | ☐ |  
+| 02 파일 관리하기 | 02_node | ☑ | ☐ |  
 | 01 개발환경 구축, ES6 | 01_vue | ☑ | ☐ | 
 | 02 템플릿, 텍스트 바인딩 | 02_vue | ☑ | ☑ | 
 | 03 Vue 인스턴스, 이벤트 | 03_vue | ☑ | ☑ | 
