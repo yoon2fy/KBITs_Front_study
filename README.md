@@ -23,7 +23,7 @@ This repository is a check list which is the first term practices in KB IT's you
 | 01 개발환경 구축, ES6 | 01_vue | ☑ | ☐ | 
 | 02 템플릿, 텍스트 바인딩 | 02_vue | ☑ | ☑ | 
 | 03 Vue 인스턴스, 이벤트 | 03_vue | ☑ | ☑ | 
-| 04 부트스트랩 | 04_vue | ☐ | ☐ | 
+| 04 부트스트랩 | 04_vue | ☑ | ☑ | 
 | 05 스타일 처리 | 05_vue | ☑ | ☑ | 
 | 06 단일 파일 컴포넌트 | 06_vue | ☑ | ☑ | 
 | 07 컴포넌트 심화 | 07_vue | ☑ | ☐ |  
