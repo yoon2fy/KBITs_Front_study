@@ -1,0 +1,8 @@
+pinia-test-app 디렉토리 구성
+
+src (file)
+ㄴ stores (file)
+ ㄴ todoList.js
+ㄴ App1.vue
+ㄴ App2.vue
+ㄴ main.js
