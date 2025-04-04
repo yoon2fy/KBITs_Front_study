@@ -5,5 +5,5 @@
 
 ---
 
-[12-vue-pinia-figure](./12-vue-pinia-figure)
+![12-vue-pinia-figure](./12-vue-pinia-figure)
 **figure. 01.** pinia의 mechanism.
