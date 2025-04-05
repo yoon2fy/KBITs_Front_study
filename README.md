@@ -18,7 +18,7 @@ This repository is a check list which is the first term practices in KB IT's you
 
 | 항목 | 디렉토리 명 | 기본 | 심화 | 2회독 |
 |------|:----:|:----:|:----:|:----:|
-| 01 Node.js 기초 | 01_node | ☑ | ☑ | ☐ |
+| 01 Node.js 기초 | [01_node](https://github.com/yoon2fy/KBITs_Front_study/tree/main/02_Vuejs/01_node) | ☑ | ☑ | ☐ |
 | 02 파일 관리하기 | 02_node | ☑ | ☑ | ☐ |
 | 01 개발환경 구축, ES6 | 01_vue | ☑ | ☑ | ☐ |
 | 02 템플릿, 텍스트 바인딩 | 02_vue | ☑ | ☑ | ☐ |
